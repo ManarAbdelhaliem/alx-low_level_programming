@@ -1,12 +1,11 @@
-#include <stdio.h>
-void first(void) _attribute_ ((constructor));
+#include "lists.h"
 /**
-* first - prints a sentence before the main
-* function is executed
-*/
-void first(void)
+  * reverse_listint - define function
+  * @head: describe argument
+  * Return: what does it return?
+  */
+listint_t *reverse_listint(listint_t **head)
 {
-printf("You're beat! and yet, you must allow,\n");
-printf("I bore my house
-upon my back!\n");
+	head++;
+	return (0);
 }

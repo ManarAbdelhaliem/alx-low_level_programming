@@ -1,5 +1,4 @@
 #include <stdio.h>
-void first(void) _attribute_ ((constructor));
 /**
 * first - prints a sentence before the main
 * function is executed
@@ -7,8 +6,7 @@ void first(void) _attribute_ ((constructor));
 void first(void)
 {
 printf("You're beat! and yet, you must allow,\n");
-printf("I bore my house
-upon my back!\n");
+printf("I bore my houseupon my back!\n");
 }
 /**
  * main - check the code

@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-void printMessage() {
-    printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
-}
-
-int main() {
-    // Call the function to print the message before main
-    printMessage();
-
-    // Your main program logic here
-    printf("Main function executed.\n");
-    return 0;
+void first(void); 
+_attribute_ (constructor);
+/**
+* first - prints a sentence before the main
+* function is executed
+*/
+void first(void)
+{
+printf("You're beat! and yet, you must allow,\n");
+printf("I bore my house
+upon my back!\n");
 }
